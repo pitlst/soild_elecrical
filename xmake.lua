@@ -1,5 +1,7 @@
 add_rules("mode.debug", "mode.release")
 
+includes("module/**/xmake.lua")
+
 target("soild_elecrical")
     set_kind("binary")
     add_files("src/*.cpp")
