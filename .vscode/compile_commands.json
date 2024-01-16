@@ -1,8 +1,8 @@
 [
 {
   "directory": "/home/cheakf/workspace/soild_elecrical/soild_elecrical",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++17", "-Imodule/json/include", "-DNDEBUG", "-o", "build/.objs/test_main/linux/x86_64/release/module/json/test/main.cpp.o", "module/json/test/main.cpp"],
-  "file": "module/json/test/main.cpp"
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-DNDEBUG", "-o", "build/.objs/soild_elecrical/linux/x86_64/release/src/main.cpp.o", "src/main.cpp"],
+  "file": "src/main.cpp"
 },
 {
   "directory": "/home/cheakf/workspace/soild_elecrical/soild_elecrical",
@@ -16,6 +16,6 @@
 },
 {
   "directory": "/home/cheakf/workspace/soild_elecrical/soild_elecrical",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-DNDEBUG", "-o", "build/.objs/soild_elecrical/linux/x86_64/release/src/main.cpp.o", "src/main.cpp"],
-  "file": "src/main.cpp"
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++17", "-DNDEBUG", "-o", "build/.objs/test_main/linux/x86_64/release/module/json/test/main.cpp.o", "module/json/test/main.cpp"],
+  "file": "module/json/test/main.cpp"
 }]
